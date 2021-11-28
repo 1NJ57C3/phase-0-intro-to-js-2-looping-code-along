@@ -26,9 +26,13 @@ const writeCards = (array, event) => {
 }
 
 const countDown = number => {
-    let i = number;
-    while (i >= 0) {
-        console.log(i);
-        i--;
+    // let i = number;
+    // while (i >= 0) {
+    //     console.log(i);
+    //     i--;
+    // }
+    while (number >= 0) {
+        console.log(number);
+        number--;
     }
 }
